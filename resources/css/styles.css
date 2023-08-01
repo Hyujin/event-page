@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');  
+    
+    html, body{
+        background-color: rgb(255, 255, 255);
+        color: rgb(60, 60, 60);
+        font-family: 'Poppins', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+    }   
+
+    .bg-secondary{
+        color: white !important;
+    }
+
+    .bg-light{
+        color: rgb(39, 39, 39) !important;
+    }
+
+    .closing-message{
+        font-size: 2rem;
+        color: rgb(40, 40, 40);
+    }
+
+    .closing-signature{
+        font-family: 'battavia_hill';
+        color: #ff3333;
+        font-style: italic;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .footer-bg{
+        background-image: url(../images/footer-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20%;
+    }
+
+@media only screen and (min-width: 768px) {
+    /* Hide the mobile-only content on screens wider than 768px */
+    /* This will be triggered when screen is on desktops */
+
+    a{
+        text-decoration: none;
+        color: rgb(35, 35, 35);
+    }
+
+    a :hover{
+        color: #d80000;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .break{
+        flex-basis: 100%;
+        height: 0;
+    }
+    
+    .textile-bg{
+        background-image: url('../images/bg-dagmay.jpg');
+        background-size: cover;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .hero-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero-logo img{
+        margin-top: 1vw;
+        width: 45%;
+   
+    }
+
+    .nav-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10%;
+        gap: 0px;
+    }
+
+    .nav-icons img{
+        width: 40%;
+        margin-left: 35%;
+        transition: transform .2s;
+        margin-top: -2vw;
+    }
+
+    .nav-icons img:hover{
+        transform: scale(1.5);
+    }
+
+    .nav-icons a{
+        text-decoration: none;
+    }
+
+    .nav-icons p{
+        color: rgb(38, 38, 38);
+        padding-left: 42%;
+        margin-top: -1.3vw;
+    }
+
+    .event-mobile{
+        display: none;
+    }
+
+    .event-title{
+        padding-top: 8vw;
+        padding-bottom: 5vw;
+    }
+
+    .event-texts{
+        color:rgb(60, 60, 60);
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+
+    .event-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .event-date{
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+    } 
+
+    .event-detail{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 5%;
+        gap: 5vw;
+    }
+
+    .event-contents{
+        width: 15%;
+    }
+
+    .event-contents img{
+        display: inherit;
+        width: 100%;
+    }
+
+    .event-description{
+        color: rgb(86, 86, 86);
+        font-size: 2em;
+        font-weight: 700;
+        font-size: larger;
+        width: 100%;
+    }
+
+    .event-address{
+        font-size: 1em !important;
+    }
+
+    .event-bg{
+        background-image: url('../images/bg-event-textured.jpg');
+        background-size: cover;
+        background-repeat: repeat-x;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .vl{
+        border-left: 6px solid grey;
+        border-radius: 8px;
+        height: 20vw;
+    }
+
+    .btn-xl{
+        background-color: #ff3333;
+        color: white;
+        width: 15%;
+        height: 3vw;
+        font-weight: 600;
+        font-size: .8em;
+    }
+
+    .btn-xl a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .btn-xl :hover{
+        color: lightgrey;
+    }
+
+    .accordion-container{
+        width: 80%;
+        padding-bottom: 15vw;
+    }
+
+    .faq-bg{
+    background-image: url('../images/faq-bg.jpg');
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 30px 30px rgb(255, 255, 255) inset;
+}
+
+    .faq-header{
+        padding-top: 5vw;
+    }
+
+    .faq-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .faq-icons img{
+        width: 30%;
+    }
+
+    .bg-danger{
+        color: white !important;
+    }
+
+    .love-davao-bg{
+        background-image: url('../images/love-davao-mobile-bg.jpg');
+        background-size: cover;
+        z-index: 1;
+        width: 100%;
+        height: 100%; 
+        box-shadow: 0 30px 30px rgb(255, 255, 255) inset;
+    }
+
+    .love-davao-salutation{
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    #love-davao-tag{
+        padding-top: 13vw;
+    }
+
+    .love-davao-message{
+        font-size: 1.5vw;
+    }
+
+    .love-davao-signature{
+        color: crimson;
+        font-size: 2vw;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .love-davao-message-container{
+        padding-bottom: 18vw;
+    }
+
+    .must-logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 3%;
+        gap: 0px;
+        row-gap: 0px;
+        margin-left: 6vw;
+        transition: all 0.2s ease-in-out;
+    }
+
+     .must-logos img:hover{
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0px 8px 20px rgba(110, 110, 110, 0.4);
+    }
+
+    .must-logos img{
+        width: 70%;
+    }
+
+    .must-logos p{
+        width: 80%;
+        font-weight: 700;
+    }
+
+    .must-icons img{
+        width: 30%;
+    }
+
+    
+    .footer-bg{
+        background-image: url(../images/footer-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* Hide the desktop-only content on screens narrower than 768px */
+    /* This will be triggered when users are in mobile */
+
+    a{
+        text-decoration: none;
+        color: rgb(35, 35, 35);
+    }
+
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .break{
+        flex-basis: 100%;
+        height: 0;
+    }
+    
+    .textile-bg{
+        background-image: url('../images/bg-dagmay.jpg');
+        background-size: cover;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .hero-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero-logo img{
+        width: 85%;
+        padding-top: 60%;
+   
+    }
+
+
+    .nav-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50vw;
+        gap: 0px;
+    }
+
+    .nav-icons img{
+        padding-top: 10vw;
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    .nav-icons a{
+        text-decoration: none;
+    }
+
+    .nav-icons p{
+        color: rgb(38, 38, 38);
+        padding-left: 12%;
+        margin-top: -1.3vw;
+    }
+
+    .event-desktop{
+        display: none;
+    }
+
+    .event-mobile{
+        width: 100%;
+    }
+
+    .event-title{
+        padding-top: 25vw;
+        padding-bottom: 5vw;
+    }
+
+    .event-texts{
+        color:rgb(60, 60, 60);
+        font-size: 3em;
+        font-weight: bolder;
+    }
+
+    .event-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .event-date{
+        color: crimson;
+        font-weight: 700;
+        margin-bottom: 0px !important;
+    }
+
+    .event-date img{
+        width: 20%;
+    }
+
+    .event-location{
+        font-weight: 600;
+    }
+
+    .event-date p{
+        
+        font-weight: 600;
+        font-size: larger;
+    }
+
+    .event-date img{
+        width: 100%;
+    }
+
+    .event-detail{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .event-bg{
+        background-image: url('../images/bg-event-textured.jpg');
+        background-size: cover;
+        background-repeat: repeat-x;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .faq-bg{
+    background-image: url('../images/faq-bg.jpg');
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 30px 30px rgb(255, 255, 255) inset;
+    }
+
+    .faq-header{
+        padding-top: 15vw;
+        padding-bottom: 5vw;
+    }
+
+    .faq-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .faq-logo img{
+        width: 50%;
+   
+    }
+
+    .accordion{
+        padding-bottom: .2vw;
+    }
+
+    .accordion-header button{
+        height: 20vw !important;
+    }
+
+    .bg-danger{
+        color: white !important;
+    }
+
+    .love-davao-bg{
+        background-image: url('../images/love-davao-mobile-bg.jpg');
+        z-index: 1;
+        width: 100%;
+        height: 100%; 
+        box-shadow: 0 30px 30px rgb(255, 255, 255) inset;
+    }
+
+    #love-davao-tag{
+        padding-top: 45vw;
+    }
+
+    .love-davao-message-container{
+        padding-bottom: 50vw;
+    }
+
+    .love-davao-salutation{
+        font-size: 2.5rem;
+        font-weight: 700;
+        padding-bottom: 4vw;
+    }
+
+    .love-davao-message{
+        font-size: 1.2rem;
+        padding-bottom: 15vw;
+    }
+
+    .love-davao-signature{
+        color: crimson;
+        font-size: 1.2rem;
+        font-weight: 700;
+        font-style: italic;
+        padding-bottom: 20vw;
+    }
+
+    .must-logos-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 10%;
+        gap: 0px;
+        margin-left: 8vw;
+    }
+
+
+    .must-logos-mobile img{
+        width: 70%;
+    }
+
+    .must-logos-mobile p{
+        font-size: 12px;
+        font-weight: 500;
+        width: 90%;
+    }
+
+    .must-icons img{
+        width: 50%;
+    }
+
+    .must-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .must-header img{
+        width: 50%;
+        padding-top: 10vw;
+    }
+
+    .footer-bg{
+        background-image: url(../images/footer-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+    }
+
+}
+
+
+/* end of media query */
+/* 
+html, body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 60, 60);
+}
+
+.container-desktop {
+    display: none;
+}
+
+.textile-bg{
+    position: absolute;
+    background-image: url('../images/bg-dagmay.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+   
+    z-index: 1;
+}
+
+.logo-pos{
+    z-index: 2;
+}
+
+.red-skew{
+    position: relative;
+}
+
+.red-skew::before{
+    content: "";
+    position: absolute;
+    margin-top: 50%;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(255, 0, 0); /* Adjust the color and opacity as needed 
+    transform: skewY(-10deg); /* Adjust the angle of the diagonal 
+    transform-origin: top left;
+    z-index: 1; /* Ensure the overlay is positioned above the content 
+}
+
+.nav-bar{
+    padding-left: 30%;
+}
+
+.nav-logo{
+    width: 70%;
+}
+
+.content{
+    z-index: 2;
+} */
